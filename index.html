@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Free Fire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <!-- Logo Free Fire -->
+            <div class="logo-container">
+                <img id="logo" src="logo_freefire.png" alt="Logo Free Fire" class="logo">
+            </div>
+
+            <h2>Login</h2>
+            <p>Masuk untuk mendapatkan Diamond Free Fire</p>
+            <input type="text" id="email" placeholder="Email atau Nomor HP">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="showSuccess()">Login</button>
+        </div>
+    </div>
+
+    <!-- Popup -->
+    <div id="success-popup" class="popup">
+        <div class="popup-content">
+            <span class="checkmark"></span>
+            <h3>Success!</h3>
+            <p>Diamond akan segera dikirim ke akun Anda.</p>
+            <button onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
